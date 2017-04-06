@@ -1,0 +1,7 @@
+.*
+!.gitignore
+!.gitattributes
+composer.lock
+/node_modules
+/public/storage
+/vendor
