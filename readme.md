@@ -1,7 +1,5 @@
 <h1 align="center">Food ordering service system</h1>
 
-<p align="center"><a href="https://www.beetroot.se"><img src="https://beetroot.se/wp-content/uploads/2016/04/logo.svg"></a></p>
-
 ## Description:
 
 This project created in educational purposes in scope of PHP-course created by Yurii Svystun and conducted in Beetroot company.
@@ -25,4 +23,5 @@ If you discover a security vulnerability this project, please send an e-mail to 
 ## License
 
 Project based on Laravel 5.4.xx framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
-[![N|Solid](https://laravel.com/assets/img/components/logo-laravel.svg)](https://www.laravel.com)
+
+<p align="center"><a href="https://www.beetroot.se"><img src="https://beetroot.se/wp-content/uploads/2016/04/logo.svg"></a></p>
