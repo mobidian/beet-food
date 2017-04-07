@@ -1,6 +1,7 @@
 <h1 align="center">Food ordering service system</h1>
 
-> This project created in educational purposes in scope of PHP-course created by Yurii Svystun and conducted in Beetroot company.
+> This project created in educational purposes in scope of PHP-course 
+> created by Yurii Svystun and conducted in Beetroot company.
 
 ## Installation for Linux (more cool)
 
