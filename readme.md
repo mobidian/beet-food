@@ -1,4 +1,4 @@
-# Food ordering service system
+<h1 align="center">Food ordering service system</h1>
 
 <p align="center"><a href="https://www.beetroot.se"><img src="https://beetroot.se/wp-content/uploads/2016/04/logo.svg"></a></p>
 
