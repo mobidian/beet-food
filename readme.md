@@ -2,13 +2,6 @@
 
 <p align="center"><a href="https://www.beetroot.se"><img src="https://beetroot.se/wp-content/uploads/2016/04/logo.svg"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
-
 ## Description:
 
 This project created in educational purposes in scope of PHP-course created by Yurii Svystun and conducted in Beetroot company.
