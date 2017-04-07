@@ -1,7 +1,9 @@
 <h1>Food ordering service system</h1>
 
 <p align="center">
+
 [![N|Solid](https://beetroot.se/wp-content/uploads/2016/04/logo.svg)](https://www.beetroot.se)
+
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
