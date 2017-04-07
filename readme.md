@@ -1,8 +1,7 @@
 <p align="center">
+<h1>Food ordering service system</h1>
 
-# Food ordering service system
-
-(Beetroot.se)
+<h3>(Beetroot.se)</h3>
 
 [![N|Solid](https://beetroot.se/wp-content/uploads/2016/04/logo.svg)](https://www.beetroot.se)
 
