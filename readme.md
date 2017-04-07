@@ -1,9 +1,8 @@
-<h1>Food ordering service system</h1>
+# Food ordering service system
+
+<p align="center"><a href="https://www.beetroot.se"><img src="https://beetroot.se/wp-content/uploads/2016/04/logo.svg"></a></p>
 
 <p align="center">
-
-[![N|Solid](https://beetroot.se/wp-content/uploads/2016/04/logo.svg)](https://www.beetroot.se)
-
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
@@ -32,5 +31,5 @@ If you discover a security vulnerability this project, please send an e-mail to 
 
 ## License
 
-Project based on Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Project based on Laravel 5.4.xx framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 [![N|Solid](https://laravel.com/assets/img/components/logo-laravel.svg)](https://www.laravel.com)
