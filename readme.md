@@ -72,6 +72,8 @@
     
     $ php artisan key:generate
     
+    $ sudo chown -R www-data:www-data storage/ bootstrap/cache/
+    
     $ php artisan migrate
     
     $ npm install // Install javascript dependencies 
