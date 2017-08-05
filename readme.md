@@ -65,9 +65,9 @@
     $ cd beet-food
     
     $ composer install
-    
-    // Create database via PhpMyadmin
-    
+    ```
+    Create database via PhpMyadmin or command line.
+    ```
     $ cp .env.example .env // Copy .env.example to .env and adjust to your local setup of DB
     
     $ php artisan key:generate
