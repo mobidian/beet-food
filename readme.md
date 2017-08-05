@@ -122,10 +122,6 @@
     
 Open browser and go to url: http://beet-food.dev
 
-## Installation for Windows
-
-Installation process for Windows
-
 ## Contributing
 
 Contributors of this project is students of PHP-training.
@@ -136,6 +132,6 @@ If you discover a security vulnerability this project, please send an e-mail to 
 
 ## License
 
-Project based on customized Laravel 5.4.xx framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Project based on Laravel 5.4.xx framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 <p align="center"><a href="https://www.beetroot.se"><img src="https://beetroot.se/wp-content/uploads/2016/04/logo.svg"></a></p>
