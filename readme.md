@@ -51,7 +51,7 @@
     ...
     - xml
     ```
-6. Clone this repository (Ubuntu 14.04/16.04):
+6. Install project (Ubuntu 14.04/16.04):
 
     ```
     $ cd ~
