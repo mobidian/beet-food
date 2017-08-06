@@ -10,7 +10,9 @@
 
 1. You should have account on github.com (Register: https://github.com/join)
 
-2. Open your terminal window.
+2. You should have [installed SSH key](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/).
+
+2. Open your terminal window (Keyboard Shortcut: Ctrl + Alt + T).
 
 3. Check if you have installed `composer`:
 
@@ -72,13 +74,13 @@
     
     $ php artisan key:generate
     
-    $ sudo chown -R www-data:www-data storage/ bootstrap/cache/
+    $ sudo chmod -R 0777 storage/ bootstrap/cache/
     
-    $ php artisan migrate
+    $ php artisan migrate (optional)
     
-    $ npm install // Install javascript dependencies 
+    $ npm install // (optional) Install javascript dependencies 
     
-    $ npm run dev // Run webpack
+    $ npm run dev // (optional) Run webpack
     ```
 7. Create virtual host on your local PC (Ubuntu 14.04/16.04). (For Windows OS you can use Openserver or Xampp)
     
