@@ -45,6 +45,14 @@
                         @if (Auth::guest())
                             <li><a href="{{ route('login') }}">Login</a></li>
                             <li><a href="{{ route('register') }}">Register</a></li>
+
+                            @foreach(Language::$langs as $key => $lang)
+                                <li>
+                                    <a href="{{ route('set.lang', compact('lang')) }}">
+                                        {{ $lang }}
+                                    </a>
+                                </li>
+                            @endforeach
                         @else
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
