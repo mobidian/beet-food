@@ -50,25 +50,13 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="lang" class="col-md-4 control-label">Select language:</label>
-
-                            <div class="col-md-6">
-                                <select name="lang" id="lang">
-                                    @foreach(Language::$langs as $key => $lang)
-                                        <option value="{{ $lang }}">{{ Language::$human[$key] }}</option>
-                                    @endforeach
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
                             <div class="col-md-8 col-md-offset-4">
                                 <button type="submit" class="btn btn-primary">
                                     Login
                                 </button>
 
                                 <a class="btn btn-link" href="{{ route('password.request') }}">
-                                    Forgot Your Password?
+                                    Forgot Your Password? {{ __('auth.failed') }}
                                 </a>
                             </div>
                         </div>
