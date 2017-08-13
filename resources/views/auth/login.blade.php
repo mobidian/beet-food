@@ -7,6 +7,7 @@
             <div class="panel panel-default">
                 <div class="panel-heading">Login</div>
                 <div class="panel-body">
+                    <img src="https://beetroot.se/wp-content/uploads/2016/04/logo.svg">
                     <form class="form-horizontal" method="POST" action="{{ route('login') }}">
                         {{ csrf_field() }}
 
@@ -45,6 +46,18 @@
                                         <input type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }}> Remember Me
                                     </label>
                                 </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lang" class="col-md-4 control-label">Select language:</label>
+
+                            <div class="col-md-6">
+                                <select name="lang" id="lang">
+                                    @foreach(Language::$langs as $key => $lang)
+                                        <option value="{{ $lang }}">{{ Language::$human[$key] }}</option>
+                                    @endforeach
+                                </select>
                             </div>
                         </div>
 
