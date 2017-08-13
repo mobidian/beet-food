@@ -15,4 +15,11 @@ return [
 
     'failed' => 'These credentials do not match our records.',
 
+    'login' => 'Вход',
+    'logout' => 'Выход',
+    'register' => 'Регистрация',
+    'emailAddress' => 'Ваш E-Mail',
+    'password' => 'Пароль',
+    'remember' => 'Запомнить меня',
+    'forgot' => 'Забыли пароль?',
 ];
