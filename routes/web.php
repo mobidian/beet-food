@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'IndexController@index')->name('index');
+Route::get('/lang/{lang}', 'IndexController@setLang')->name('set.lang');
 
 // Authentication Routes...
 $this->get('login', 'Auth\LoginController@showLoginForm')->name('login');
