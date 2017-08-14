@@ -38,12 +38,21 @@ class Handler extends ExceptionHandler
     /**
      * Render an exception into an HTTP response.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \Exception  $exception
-     * @return \Illuminate\Http\Response
+     * @param \Illuminate\Http\Request $request
+     * @param Exception $exception
+     * @return \Illuminate\Http\Response|\Symfony\Component\HttpFoundation\Response
      */
     public function render($request, Exception $exception)
     {
+        if ($this->isHttpException($exception)) {
+            $code = $exception->getStatusCode();
+            if (view()->exists('errors.' . $code)) {
+                return response()->view('errors.' . $code, compact('code'), $code);
+            } else {
+                return response()->view('errors.custom', compact('code'), $code);
+            }
+        }
+
         return parent::render($request, $exception);
     }
 
