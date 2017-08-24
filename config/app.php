@@ -94,6 +94,14 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Cookie life time for language cookie
+    |--------------------------------------------------------------------------
+    */
+
+    'cookie_lang_lifetime' => 525600, // One year in minutes
+
+    /*
+    |--------------------------------------------------------------------------
     | Encryption Key
     |--------------------------------------------------------------------------
     |
@@ -167,6 +175,7 @@ return [
          * Package Service Providers...
          */
         Laravel\Tinker\TinkerServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -226,6 +235,10 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        // Aliases for custom data classes
+        'Language' => App\Beety\Language::class,
+        'Location' => App\Beety\Location::class,
+        'Role' => App\Beety\Role::class,
     ],
 
 ];
